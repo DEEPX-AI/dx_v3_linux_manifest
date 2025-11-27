@@ -14,5 +14,4 @@
 		<linkfile src="project/build.sh" dest="build.sh" />
 	</project>
 	<project path="modules/isp" name="rt_v3_isp_vsi_driver" groups="linux" remote="origin" revision="main" />
-	<project path="testsuite" name="rt_v3_testsuite" groups="linux" remote="origin" revision="main" />
 </manifest>
