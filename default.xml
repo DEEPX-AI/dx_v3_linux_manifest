@@ -2,16 +2,16 @@
 <manifest>
 	<include name="remote.xml" />
 
-	<project path="trusted-firmware-m" name="rt_v3_trusted-firmware-m" groups="linux" remote="origin" revision="main" />
-	<project path="trusted-firmware-a" name="rt_v3_trusted-firmware-a" groups="linux" remote="origin" revision="main" />
-	<project path="u-boot" name="rt_v3_u-boot" groups="linux" remote="origin" revision="main" />
-	<project path="linux" name="rt_v3_linux-kernel" groups="linux" remote="origin" revision="main" />
-	<project path="buildroot" name="rt_v3_buildroot" groups="linux" remote="origin" revision="main" />
+	<project path="trusted-firmware-m" name="dx_v3_trusted-firmware-m" groups="linux" remote="origin" revision="main" />
+	<project path="trusted-firmware-a" name="dx_v3_trusted-firmware-a" groups="linux" remote="origin" revision="main" />
+	<project path="u-boot" name="dx_v3_u-boot" groups="linux" remote="origin" revision="main" />
+	<project path="linux" name="dx_v3_linux-kernel" groups="linux" remote="origin" revision="main" />
+	<project path="buildroot" name="dx_v3_buildroot" groups="linux" remote="origin" revision="main" />
 	<project path="tools/toolchain/arm-none-eabi" name="rt_toolchains" groups="linux" remote="origin" revision="gcc-arm-11.2-2022.02-x86_64-arm-none-eabi" />
 	<project path="tools/toolchain/aarch64-none-linux-gnu" name="rt_toolchains" groups="linux" remote="origin" revision="arm-gnu-toolchain-13.2.Rel1-x86_64-aarch64-none-linux-gnu" />
-	<project path="tools/sign_image" name="rt_v3_linux_tool_sign_image" groups="linux" remote="origin" revision="main" />
-	<project path="tools" name="rt_v3_linux_tools" groups="linux" remote="origin" revision="main" >
+	<project path="tools/sign_image" name="dx_v3_linux_tool_sign_image" groups="linux" remote="origin" revision="main" />
+	<project path="tools" name="dx_v3_linux_tools" groups="linux" remote="origin" revision="main" >
 		<linkfile src="project/build.sh" dest="build.sh" />
 	</project>
-	<project path="modules/isp" name="rt_v3_isp_vsi_driver" groups="linux" remote="origin" revision="main" />
+	<project path="modules/isp" name="dx_v3_isp_vsi_driver" groups="linux" remote="origin" revision="main" />
 </manifest>
