@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote fetch="https://git@github.com:DEEPX-AI" name="origin" />
+	<remote fetch="ssh://git@github.com:DEEPX-AI" name="origin" />
 </manifest>
