@@ -7,8 +7,8 @@
 	<project path="u-boot" name="dx_v3_u-boot" groups="linux" remote="origin" revision="main" />
 	<project path="linux" name="dx_v3_linux-kernel" groups="linux" remote="origin" revision="main" />
 	<project path="buildroot" name="dx_v3_buildroot" groups="linux" remote="origin" revision="main" />
-	<project path="tools/toolchain/arm-none-eabi" name="dx_toolchains" groups="linux" remote="origin" revision="gcc-arm-11.2-2022.02-x86_64-arm-none-eabi" />
-	<project path="tools/toolchain/aarch64-none-linux-gnu" name="dx_toolchains" groups="linux" remote="origin" revision="arm-gnu-toolchain-13.2.Rel1-x86_64-aarch64-none-linux-gnu" />
+	<project path="tools/toolchain/arm-none-eabi" name="dx_v3_toolchains" groups="linux" remote="origin" revision="gcc-arm-11.2-2022.02-x86_64-arm-none-eabi" />
+	<project path="tools/toolchain/aarch64-none-linux-gnu" name="dx_v3_toolchains" groups="linux" remote="origin" revision="arm-gnu-toolchain-13.2.Rel1-x86_64-aarch64-none-linux-gnu" />
 	<project path="tools/sign_image" name="dx_v3_linux_tool_sign_image" groups="linux" remote="origin" revision="main" />
 	<project path="tools" name="dx_v3_linux_tools" groups="linux" remote="origin" revision="main" >
 		<linkfile src="project/build.sh" dest="build.sh" />
