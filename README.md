@@ -13,7 +13,7 @@ v3 linux manifest based on buildroot
 
 ## Download
 ```console
-$ repo init -u git@gh.deepx.ai:deepx/rt_v3_linux_manifest.git
+$ repo init -u https://github.com/DEEPX-AI/dx_v3_linux_manifest.git
 $ repo sync
 ```
 
